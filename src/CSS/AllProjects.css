@@ -1,0 +1,42 @@
+.all-projects-section {
+  margin-top: 5rem;
+}
+.all-projects-section h2 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
+.project-container {
+  display: grid;
+  gap: 2rem;
+  width: 80vw;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.project {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  background-color: aliceblue;
+  border-radius: 0.25em;
+}
+
+.project:hover {
+  transform: scale(1.04);
+  transition: all 0.3s linear;
+}
+.project img {
+  height: 20rem;
+  background-position: top;
+  object-fit: cover;
+}
+
+@media (min-width: 580px) {
+  .project-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
