@@ -23,6 +23,7 @@
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
   background-color: aliceblue;
   border-radius: 0.25em;
+  position: relative;
 }
 
 .project:hover {

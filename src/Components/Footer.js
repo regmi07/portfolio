@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="footer-center">
                     <p>&#169;Nikesh Regmi 2021</p>
-                    <a href="https://github.com/regmi07/react-tutorial-projects">view source code</a>
+                    <a href="https://github.com/regmi07/portfolio">view source code</a>
                 </div>
             </div>
         </footer>

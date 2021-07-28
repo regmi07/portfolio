@@ -7,7 +7,12 @@ const Project = ({image,name,description,link}) => {
             </header>
             <footer className="project-footer">
                 <h3 className="project-name">{name}</h3>
-                <p className="project-description">{description}</p>
+                <div className="project-description">
+                    <h5>description</h5>
+                    <p>
+                        {description}
+                    </p>
+                </div>
             </footer>
         </a>
 
