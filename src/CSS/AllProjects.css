@@ -26,10 +26,10 @@
   position: relative;
 }
 
-.project:hover {
+/* .project:hover {
   transform: scale(1.04);
   transition: all 0.3s linear;
-}
+} */
 .project img {
   height: 20rem;
   background-position: top;
